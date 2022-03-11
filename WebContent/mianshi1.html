@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<center>
+    <form action="http://localhost:8080/demo41_war_exploded/demo04"method="get">
+        <table border="5" width="70%">
+            <tr>
+                <td>您的部门</td>
+                <td>
+                    <input type="radio" name="department" value="C" required/>嵌入式技术部
+                    <input type="radio" name="department" value="J" required/>平台技术部<br>
+                    <input type="radio" name="department" value="P" required/>行政人事部
+                    <input type="radio" name="department" value="I" required/>网络安全部门<br>
+                    <input type="radio" name="department" value="X" required/>产品机械组
+                </td>
+            <tr>
+            <tr>
+                <td>请正确输入您的部门代号</td>
+                <td>
+                    <input type="text" name="deapnum" required/>
+                </td>
+            </tr>
+            <tr>
+                <td>请输入您的注册账号，一旦注册，不能再次修改</td>
+                <td>
+                    <input type="text" name="num" required/>
+                </td>
+            </tr>
+            <tr>
+                <td>您的姓名</td>
+                <td>
+                    <input type="text" name="name" required/>
+                </td>
+            </tr>
+            <tr>
+                <td>请输入您的密码</td>
+                <td>
+                    <input type="password" name="password" required/>
+                </td>
+            </tr>
+        </table>
+        <input type="submit" value="注册">
+    </form>
+</center>
+</body>
+</html>

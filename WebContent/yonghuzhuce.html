@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<center>
+    <form action="http://localhost:8080/demo41_war_exploded/demo01"method="get">
+    <table border="7" width="70%">
+        <tr>
+            <td>请输入一个账号，确定后不能修改</td>
+            <td><input type="text" name="num" required/></td>
+        </tr>
+        <tr>
+            <td>用户名</td>
+            <td><input type="text" name="name" required="required"></td><br>
+        </tr>
+        <tr>
+            <td>年龄</td>
+            <td><input type="text" name="age" required="required"></td>
+        </tr>
+        <tr>
+            <td>毕业院校</td>
+            <td><input type="text" name="university" required="required"></td>
+        </tr>
+        <tr>
+            <td>学历</td>
+            <td>
+                <input type="radio" name="xueli" value="0" required="required">低于专科
+                <input type="radio" name="xueli" value="1" required="required">专科<br>
+                <input type="radio" name="xueli" value="2" required="required">本科
+                <input type="radio" name="xueli" value="3" required="required">研究生<br>
+                <input type="radio" name="xueli" value="4" required="required">博士生
+                <input type="radio" name="xueli" value="5" required="required">高于博士生
+            </td>
+        </tr>
+        <tr>
+            <td>密码</td>
+            <td><input type="password" name="password" required="required"></td>
+        </tr>
+        <tr>
+            <td>您的邮箱</td>
+            <td><input type="email" name="email"required="required"></td>
+        </tr>
+        <tr>
+            <td>您想要去的部门</td>
+            <td>
+                <input type="radio" name="department" value="C"required="required">嵌入式技术部
+                <input type="radio" name="department" value="J"required="required">平台技术部<br>
+                <input type="radio" name="department" value="P"required="required">行政人事部
+                <input type="radio" name="department" value="I"required="required">网络安全部门<br>
+                <input type="radio" name="department" value="X"required="required">产品机械组
+            </td>
+        </tr>
+        <tr>
+            <td>请您输入您的简历</td>
+            <td><input type="text" name="selfintroduce"required="required"></td>
+        </tr>
+    </table>
+    <input type="submit"value="注册"required="required">
+    </form>
+</center>
+</body>
+</html>
